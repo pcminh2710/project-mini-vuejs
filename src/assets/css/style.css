@@ -1,0 +1,58 @@
+.theme-options {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+#theme-red,
+#theme-blue,
+#theme-yellow,
+#theme-dark,
+#theme-default {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 3px;
+}
+#theme-red {
+    background-color: red;
+}
+#theme-blue {
+    background-color: blue;
+}
+#theme-yellow {
+    background-color: yellow;
+}
+#theme-dark {
+    background-color: black;
+}
+#theme-default {
+    background-color: white;
+}
+#app.theme-red,
+#app.theme-blue,
+#app.theme-yellow,
+#app.theme-dark,
+#app.theme-default {
+    height: auto;
+    min-height: 100vh;
+}
+#app.theme-red {
+    background-color: rgb(233, 105, 105, 0.5);
+}
+#app.theme-blue {
+    background-color: rgba(135, 235, 248, 0.5);
+}
+#app.theme-yellow {
+    background-color: rgba(251, 253, 93, 0.5);
+}
+#app.theme-dark {
+    background-color: rgba(21, 27, 27, 0.5);
+}
+#app.theme-default {
+    background-color: white;
+}
+form {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
